@@ -1,12 +1,85 @@
-# React + Vite
+# 🌴 The Wild Oasis – Hotel Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Wild Oasis is a fully responsive hotel management web application built with React.js and modern web technologies. It is designed specifically for hotel staff, enabling authorized users to manage bookings, guests, cabins, users, and more through a secure, interactive dashboard.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+vercel: https://the-wild-oasis-seven-lilac.vercel.app/login 
+netlify: https://the-wild-oasis-hager.netlify.app/login
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js, Vite, React Router DOM (SPA)
+- **Styling**: Styled Components
+- **State Management**:
+  - Remote Global State: React Query
+  - Local UI State: React Context API
+- **Forms**: React Hook Form
+- **Backend**: Supabase (Authentication, Database, API)
+- **Charts & UI Tools**: Recharts, React Hot Toast, React Icons, Date-fns
+
+---
+
+## 🔐 Authentication & Authorization
+
+- Only **authorized users** can access the dashboard.
+- User login is done via **email and password** through Supabase.
+- Only **already logged-in users** can create new user accounts.
+
+---
+
+## 📱 Features Overview
+
+### ✅ Dashboard (Home Page)
+- View today's activity (check-ins/outs).
+- Visualize data via two charts:
+  - **Sales Summary**
+  - **Stays Duration Summary**
+- Key performance metrics for:
+  - Bookings
+  - Sales
+  - Occupancy
+  - Check-ins — over the last **7, 30, or 90 days**
+
+### 📅 Bookings
+- View all bookings
+- Filter bookings based on multiple criteria
+- Add a new booking
+- View, check-in, check-out, delete, or inspect booking details
+
+### 🛏️ Cabins
+- Add, edit, or delete cabin listings
+- Filter available cabins
+
+### 👥 Guests
+- Add new guest entries
+
+### 🧑‍💼 Users
+- Create new user accounts (only by logged-in users)
+
+### ⚙️ Settings
+- Control hotel settings:
+  - Breakfast price
+  - Maximum nights per booking
+  - Other adjustable preferences
+
+### 🙍‍♂️ Account
+- Update personal information:
+  - Profile image
+  - Username
+  - Password
+
+---
+
+## 🎨 UI & UX Highlights
+
+- Fully **responsive design** for all screen sizes
+- **Dark/Light Mode** toggle for better accessibility
+- Clean, intuitive, and modern UI with smooth interactions
+
+---
+
+## 📸 Screenshots
+
