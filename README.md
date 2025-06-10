@@ -83,7 +83,23 @@ netlify: https://the-wild-oasis-hager.netlify.app/login
 
 ## 📸 Screenshots
 
--- **Dashboard (Home Page)**:  
+--**Dashboard (Home Page)**:  
   ![Home Page](./assets/screenshots/dashboard.png)
   <br>
   ![Home Page](./assets/screenshots/dashboard2.png)
+
+
+  --**Bookings**:  
+  ![bookings Page](./assets/screenshots/bookings.png)
+
+
+  --**Cabins**:  
+  ![Cabins Page](./assets/screenshots/cabins.png)
+
+
+  --**Account**:  
+  ![Account Page](./assets/screenshots/account.png)
+
+
+  --**Checkin**:  
+  ![Checkin Page](./assets/screenshots/checkin.png)
