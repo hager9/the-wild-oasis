@@ -4,8 +4,8 @@ The Wild Oasis is a fully responsive hotel management web application built with
 
 ## 🚀 Live Demo
 
-vercel: https://the-wild-oasis-seven-lilac.vercel.app/
-netlify: https://the-wild-oasis-hager.netlify.app/login
+- **vercel**: https://the-wild-oasis-seven-lilac.vercel.app/
+- **netlify**: https://the-wild-oasis-hager.netlify.app/login
 
 ---
 
@@ -83,23 +83,23 @@ netlify: https://the-wild-oasis-hager.netlify.app/login
 
 ## 📸 Screenshots
 
---**Dashboard (Home Page)**:  
+- **Dashboard (Home Page)**:  
   ![Home Page](./assets/screenshots/dashboard.png)
   <br>
   ![Home Page](./assets/screenshots/dashboard2.png)
 
 
-  --**Bookings**:  
+- **Bookings**:  
   ![bookings Page](./assets/screenshots/bookings.png)
 
 
-  --**Cabins**:  
+- **Cabins**:  
   ![Cabins Page](./assets/screenshots/cabins.png)
 
 
-  --**Account**:  
+- **Account**:  
   ![Account Page](./assets/screenshots/account.png)
 
 
-  --**Checkin**:  
+- **Checkin**:  
   ![Checkin Page](./assets/screenshots/checkin.png)
